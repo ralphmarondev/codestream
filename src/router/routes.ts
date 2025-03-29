@@ -14,6 +14,38 @@ const routes = [
       title: 'About | CodeStream'
     },
     component: () => import('../views/about/AboutIndex.vue')
+  },
+  {
+    path: '/our-work',
+    name: 'our-work',
+    meta: {
+      title: 'Our Work | CodeStream'
+    },
+    component: () => import('../views/work/WorkIndex.vue')
+  },
+  {
+    path: '/services',
+    name: 'services',
+    meta: {
+      title: 'Services | CodeStream'
+    },
+    component: () => import('../views/services/ServicesIndex.vue')
+  },
+  {
+    path: '/news',
+    name: 'news',
+    meta: {
+      title: 'News | CodeStream'
+    },
+    component: () => import('../views/news/NewsIndex.vue')
+  },
+  {
+    path: '/contact',
+    name: 'contact',
+    meta: {
+      title: 'Contact | CodeStream'
+    },
+    component: () => import('../views/contact/ContactIndex.vue')
   }
 ]
 
