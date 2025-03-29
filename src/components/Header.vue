@@ -38,3 +38,17 @@
     </div>
   </nav>
 </template>
+
+<style scoped lang="scss">
+.navbar .nav-link {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+// Ensure active class applies properly
+:deep(.active),
+.navbar .nav-link.router-link-exact-active {
+  color: purple !important;
+  font-weight: bold;
+}
+</style>

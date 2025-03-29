@@ -1,5 +1,24 @@
 $primary: purple;
 
 * {
-	font-family: 'Courier New', Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
 }
+
+// Keep the navbar sticky
+// .navbar {
+//   position: sticky;
+//   top: 0;
+//   z-index: 1000; // Ensure it stays above content
+// }
+
+// // Apply scroll settings only to the main content
+// .main-content {
+//   overflow: auto;
+//   height: 100vh; // Ensures it takes full screen height
+//   scrollbar-width: none;
+//   -ms-overflow-style: none;
+
+//   &::-webkit-scrollbar {
+//     display: none;
+//   }
+// }
