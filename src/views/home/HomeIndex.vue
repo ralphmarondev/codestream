@@ -1,14 +1,20 @@
 <template>
   <div class="container mt-3">
-    <h1 class="text-secondary text-uppercase text-center fw-bolder">
-      Turning code into
-    </h1>
-    <h1 class="text-primary text-uppercase text-center fw-bolder">
-      cute creations!
-    </h1>
+    <div class="mt-5" style="height: 60vh">
+      <h1
+        class="text-secondary text-uppercase text-center fw-bolder"
+        style="font-size: 5rem"
+      >
+        Turning code into
+      </h1>
+      <h1
+        class="text-primary text-uppercase text-center fw-bolder"
+        style="font-size: 5rem"
+      >
+        cute creations!
+      </h1>
 
-    <div class="mt-5">
-      <h4 class="text-secondary text-center">
+      <h4 class="text-secondary text-center mt-5" style="font-size: 2rem">
         We build mobile apps and web solutions that are secure, efficient, and
         easy to use.
       </h4>
