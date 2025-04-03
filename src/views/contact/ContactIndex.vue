@@ -1,42 +1,68 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
-const showToast = ref(false)
+const name = ref('')
+const email = ref('')
+const message = ref('')
 
-const toggleToast = () => {
-  showToast.value = true
-  setTimeout(() => {
-    showToast.value = false
-  }, 3000) // Hide after 3 seconds
+const onSendMessage = () => {
+  console.log('Name:', name.value)
+  console.log('Email:', email.value)
+  console.log('Message:', message.value)
 }
 </script>
 
 <template>
   <div class="container mt-3">
-    Contact
-
-    <button @click="toggleToast" type="button" class="btn btn-primary">
-      Show toast
-    </button>
-
-    <div
-      v-if="showToast"
-      class="toast fade show position-fixed bottom-0 start-0 m-3"
-      role="alert"
-      aria-live="assertive"
-      aria-atomic="true"
-    >
-      <div class="toast-header">
-        <strong class="me-auto">CodeStream</strong>
-        <small>Just now</small>
-        <button
-          type="button"
-          class="btn-close"
-          @click="showToast = false"
-          aria-label="Close"
-        ></button>
+    <div class="row d-flex flex-column flex-lg-row">
+      <div class="col">
+        <div class="card p-3">
+          <form @submit.prevent="onSendMessage">
+            <div class="card-content">
+              <h5 class="mt-3 mx-3 text-primary">Contact Us</h5>
+              <div class="card-body">
+                <div class="mb-3">
+                  <label for="name" class="form-label">Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    placeholder="Enter your name"
+                    required
+                    v-model="name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="Enter your email"
+                    required
+                    v-model="email"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="3"
+                    placeholder="Enter your message"
+                    v-model="message"
+                    required
+                  ></textarea>
+                </div>
+                <button class="btn btn-primary px-4 py-2 mt-3" type="submit">
+                  Send Message
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
       </div>
-      <div class="toast-body">Hello, world! This is a toast message.</div>
+      <div class="col"></div>
     </div>
   </div>
 </template>

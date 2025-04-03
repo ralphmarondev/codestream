@@ -4,6 +4,9 @@ $primary: purple;
   font-family: 'Courier New', Courier, monospace;
 }
 
+nav {
+  z-index: 1000; // Ensure it stays above content
+}
 // Keep the navbar sticky
 // .navbar {
 //   position: sticky;
