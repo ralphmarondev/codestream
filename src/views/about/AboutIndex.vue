@@ -77,12 +77,14 @@
         <div class="col mb-3">
           <div class="card">
             <div class="card-body text-center">
-              <img
-                src="/ralphmaron.png"
-                alt="Ralph Maron Eda image"
-                class="image-fluid rounded-circle"
-                style="width: 150px; height: 150px; object-fit: cover"
-              />
+              <router-link to="/ralphmaron">
+                <img
+                  src="/ralphmaron.png"
+                  alt="Ralph Maron Eda image"
+                  class="image-fluid rounded-circle"
+                  style="width: 150px; height: 150px; object-fit: cover"
+                />
+              </router-link>
               <h5 class="text-primary mt-3">Ralph Maron A. Eda</h5>
               <p class="text-secondar">CEO and Founder</p>
             </div>
@@ -91,12 +93,13 @@
         <div class="col mb-3">
           <div class="card">
             <div class="card-body text-center">
-              <img
-                src="/jack.jpg"
-                alt="Jack Cabigayan image"
-                class="image-fluid rounded-circle"
-                style="width: 150px; height: 150px; object-fit: cover"
-              />
+              <router-link to="/jack">
+                <img
+                  src="/jack.jpg"
+                  alt="Jack Cabigayan image"
+                  class="image-fluid rounded-circle"
+                  style="width: 150px; height: 150px; object-fit: cover"
+              /></router-link>
               <h5 class="text-primary mt-3">Jack R. Cabigayan</h5>
               <p class="text-secondar">Frontend Developer</p>
             </div>
@@ -105,12 +108,13 @@
         <div class="col mb-3">
           <div class="card">
             <div class="card-body text-center">
-              <img
-                src="/triesha.jpg"
-                alt="Triesha Mae Olunan image"
-                class="image-fluid rounded-circle"
-                style="width: 150px; height: 150px; object-fit: cover"
-              />
+              <router-link to="/triesha">
+                <img
+                  src="/triesha.jpg"
+                  alt="Triesha Mae Olunan image"
+                  class="image-fluid rounded-circle"
+                  style="width: 150px; height: 150px; object-fit: cover"
+              /></router-link>
               <h5 class="text-primary mt-3">Triesha Mae Y. Olunan</h5>
               <p class="text-secondar">Frontend Developer</p>
             </div>
@@ -119,12 +123,14 @@
         <div class="col mb-3">
           <div class="card">
             <div class="card-body text-center">
-              <img
-                src="/jezlyn.jpg"
-                alt="Jezlyn Cabbab image"
-                class="image-fluid rounded-circle"
-                style="width: 150px; height: 150px; object-fit: cover"
-              />
+              <router-link to="/jezlyn">
+                <img
+                  src="/jezlyn.jpg"
+                  alt="Jezlyn Cabbab image"
+                  class="image-fluid rounded-circle"
+                  style="width: 150px; height: 150px; object-fit: cover"
+                />
+              </router-link>
               <h5 class="text-primary mt-3">Jezlyn P. Cabbab</h5>
               <p class="text-secondar">UI/UX Designer</p>
             </div>
