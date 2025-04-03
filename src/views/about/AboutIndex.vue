@@ -56,39 +56,64 @@
 
     <div class="mt-5">
       <h3 class="text-primary text-center">Our Team</h3>
-      <p class="text-secondary">Ralph Maron A. Eda (Founded and CEO)</p>
-      <ul>
-        <li>Lead developer, backend engineer, and project manager.</li>
-        <li>
-          Oversees development, manages timelines, and ensures smooth project
-          evaluation.
-        </li>
-        <li>
-          Handles backend development, database management, and API
-          integrations.
-        </li>
-      </ul>
-
-      <p class="text-secondary">Jack R. Cabigayan</p>
-      <ul>
-        <li>Frontend Developer</li>
-        <li>Design and develops frontend for mobile and web platforms.</li>
-        <li>Works on performance optimization.</li>
-      </ul>
-
-      <p class="text-secondary">Triesha Mae Y. Olunan</p>
-      <ul>
-        <li>Frontend Developer</li>
-        <li>Focuses on UI/UX implementation and component optimization.</li>
-        <li>Ensures cross-platform compatibility form mobile and web.</li>
-      </ul>
-
-      <p class="text-secondary">Jezlyn P. Cabbab</p>
-      <ul>
-        <li>UI/UX Designer</li>
-        <li>Design intuitive, visually appealing user interfaces.</li>
-        <li>Ensures consistency and usability across all products.</li>
-      </ul>
+      <div class="row d-flex flex-column flex-lg-row">
+        <div class="col mb-3">
+          <div class="card">
+            <div class="card-body text-center">
+              <img
+                src="/ralphmaron.png"
+                alt="Ralph Maron Eda image"
+                class="image-fluid rounded-circle"
+                style="width: 150px; height: 150px; object-fit: cover"
+              />
+              <h3 class="text-primary mt-3">Ralph Maron Eda</h3>
+              <h5 class="text-secondar">CEO and Founder</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-3">
+          <div class="card">
+            <div class="card-body text-center">
+              <img
+                src="/ralphmaron.png"
+                alt="Ralph Maron Eda image"
+                class="image-fluid rounded-circle"
+                style="width: 150px; height: 150px; object-fit: cover"
+              />
+              <h3 class="text-primary mt-3">Ralph Maron Eda</h3>
+              <h5 class="text-secondar">CEO and Founder</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-3">
+          <div class="card">
+            <div class="card-body text-center">
+              <img
+                src="/ralphmaron.png"
+                alt="Ralph Maron Eda image"
+                class="image-fluid rounded-circle"
+                style="width: 150px; height: 150px; object-fit: cover"
+              />
+              <h3 class="text-primary mt-3">Ralph Maron Eda</h3>
+              <h5 class="text-secondar">CEO and Founder</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-3">
+          <div class="card">
+            <div class="card-body text-center">
+              <img
+                src="/ralphmaron.png"
+                alt="Ralph Maron Eda image"
+                class="image-fluid rounded-circle"
+                style="width: 150px; height: 150px; object-fit: cover"
+              />
+              <h3 class="text-primary mt-3">Ralph Maron Eda</h3>
+              <h5 class="text-secondar">CEO and Founder</h5>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
